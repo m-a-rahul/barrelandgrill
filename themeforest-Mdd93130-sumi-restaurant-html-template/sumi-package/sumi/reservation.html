@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <title>Sumi Restaurant HTML Template</title>
+
+    <meta name="author" content="themesflat.com">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css" >
+
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+
+    <!-- Colors -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
+
+    <!-- Animation Style -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+    <!-- Favicon and touch icons  -->
+    <link href="icon/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon" sizes="48x48">
+    <link href="icon/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="icon/favicon.png" rel="shortcut icon">
+
+    <!--[if lt IE 9]>
+        <script src="javascript/html5shiv.js"></script>
+        <script src="javascript/respond.min.js"></script>
+        <![endif]-->
+    </head>    
+
+    <body class="box"> 
+        <section class="loading-overlay">
+            <div class="Loading-Page">
+                <h2 class="loader">Loading</h2>
+            </div>
+        </section>  
+
+        <div class="wide">
+          <header id="header" class="header clearfix">
+                <div class="header-wrap clearfix">
+                    <div class="container">
+                    <div class="logo-mobi"><a href="#"> <img src="images/logo.png" alt="image"></a></div>
+                    <div class="btn-menu">
+                        <span></span>
+                    </div>
+                        <nav id="mainnav" class="mainnav">
+                            <ul class="menu">
+                                <li class="has-sub">   
+                                    <a href="#">Home</a>
+                                    <ul class="submenu right-sub-menu "> 
+                                        <li ><a href="index.html">Home 1</a></li>
+                                    </ul><!-- /.submenu --> 
+                                </li>
+                                <li> <a href="menu.html">Menu</a>
+                                   <ul class="submenu"> 
+                                        <li ><a href="menu.html">Menu</a></li>
+                                        <li ><a href="menu-single.html">Menu Single</a></li>
+                                    </ul>
+                                </li>
+                                <li> <a href="reservation.html">Reservation </a></li>
+                                <li> <a href="shop.html">Shop</a></li>
+                                <li class="logo">
+                                    <a href="index.html"> <img src="images/logo.png" alt="image"></a>
+                                </li>
+                                <li class="has-sub"> <a href="blog.html">Blog</a>
+                                    <ul class="submenu right-sub-menu "> 
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-single.html">Blog Single</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-sub"> <a href="about.html">About Us</a></li>
+                                <li><a href="#">Page</a>
+                                    <ul class="submenu"> 
+                                        <li ><a href="gallary.html">Gallery</a></li>
+                                    </ul>
+
+                                </li>
+                                <li> <a href="contact.html">Contact</a></li>
+                            </ul><!--/.menu -->                                      
+                        </nav><!--/.mainnav -->
+                    </div><!--/.container -->
+                </div><!--/.header-wrap -->
+            </header><!--/.header -->  
+
+<!-- Page Title -->
+<div class="page-title parallax parallax1 flat_strech">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">                    
+                <div class="page-title-heading">
+                    <h1 class="title">Menu Single</h1>
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li> <a href="#">Home </a></li>
+                            <li><a href="#">Our menu</a></li>
+                        </ul>                   
+                    </div>
+                </div><!-- /.page-title-captions -->                        
+            </div><!-- /.col-md-12 -->  
+        </div><!-- /.row -->  
+    </div><!-- /.container -->                      
+</div>  
+
+<!-- Flat make resvervation -->
+<section class="flat-row section1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="reservation-page-right">
+                    <img src="images/maketrevation/1.png" class="img-responsive" alt="reservation-banner"> 
+                </div>
+            </div><!--col-md-5-->
+
+            <div class="col-md-7">
+                <div class="reservation-page-left">
+
+                    <div class="reservation-page-form"> 
+
+                        <div class="title-section">
+                            <div class="top-section">
+                                <p>Well come to Sumi Restaurant</p>
+                            </div>
+                            <h1 class="title">Make a Reservation</h1>
+                        </div>
+
+                        <ul>
+                            <li>Monday to Tuesday <span>09:00 AM - 22:00 PM</span> </li>
+                            <li>Friday to Sunday <span>11:00 AM - 20:00 PM</span></li>
+                        </ul>
+
+                        <h1 class="phone">+12345 678 910</h1>
+
+                        <h3><span>Book a table</span></h3>
+
+                        <form id="reservation-form" action ="contact/contact-process.php">                                        
+                            <div class="reservation-page-input-box">
+                                <label>Your name</label>
+                                <input type="text" class="form-control" placeholder="Full name" name="name" id="form-name" data-error="Subject field is required" required="">
+                            </div>
+                            <div class="reservation-page-input-box">
+                                <label>Time</label>
+                                <span class="fa fa-calendar date_picker" aria-hidden="true">
+                                    <input type="text" placeholder="03/09/2017" name="datepicker" id="date-picker" data-error="Subject field is required" required=""> </span>
+                                    <span class="fa fa-clock-o time_picker" aria-hidden="true">
+                                        <input type="text" placeholder="06:00" name="timepicker" id="time-picker" data-error="Subject field is required" required="">
+                                    </span>
+                                </div>
+                                <div class="reservation-page-input-box">
+                                    <label>Phone number</label>
+                                    <input type="text" class="form-control" placeholder="Your phone" name="phone" id="form-phone" data-error="Subject field is required" required="">
+                                </div>
+                                <div class="reservation-page-input-box">
+                                    <label>Seats</label>
+                                    <input type="text" class="form-control rt-date" placeholder="6 persons" name="date" id="form-date" data-error="Subject field is required" required="">
+                                </div>
+
+                                <div class="reservation-booking">
+                                    <button type="submit" class="book-now-btn">Booking now</button>
+                                </div>
+
+                            </form>                                 
+                        </div>
+                        
+                    </div>
+                </div><!--col-md-7-->
+            </div><!--row-->
+        </div><!--container -->
+    </section>
+
+    <!-- Flat client  -->
+    <section class="flat-row flat-clients s1">
+        <div class="container">
+            <div class="flat-client" data-item="4" data-nav="false" data-dots="false" data-auto="true" data-margin="30">
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/1.png" alt="images">
+                    </a> 
+                </div>
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/2.png" alt="images">
+                    </a> 
+                </div>
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/3.png" alt="images">
+                    </a> 
+                </div> 
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/4.png" alt="images">
+                    </a> 
+                </div>
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/2.png" alt="images">
+                    </a> 
+                </div>
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/3.png" alt="images">
+                    </a> 
+                </div> 
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/3.png" alt="images">
+                    </a> 
+                </div> 
+
+                <div class="item">
+                    <a href="#"> 
+                        <img src="images/clients/4.png" alt="images">
+                    </a> 
+                </div>
+
+
+            </div><!-- /.flat-client -->       
+        </div>      
+    </section> 
+
+    <!-- Google Map -->
+    <div id="flat-map">
+
+    </div><!--flat-map -->
+
+    <footer class="footer">
+        <div class="footer-widgets">        
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-md-3">
+                        <div class="widget widget_text">
+                            <h3 class="widget-title">About Us</h3>          
+                            <div class="textwidget">
+                                <p>Sed ut perspiciatis unde omnis iste <br/> natus error sit voluptatem accusantium doloremque laudantium.</p>
+                                <ul class="footer-info">
+                                    <li class="address">203, Envato Labs, Behind Alis Steet,
+                                        Melbourne, Australia.</li>
+                                        <li class="email">Email us: company@domain.com</li>
+                                        <li class="phone">Call us: 0084 962 216 601</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.col-md-3 -->
+
+                        <div class="col-md-3">
+                            <div class="widget widget_recent_posts">      
+                                <h3 class="widget-title">Latest Posts</h3>       
+                                <ul>
+                                    <li class="clearfix">
+                                        <div class="thumb flat-hover-images">
+                                            <a href="#"><img src="images/blog/5.jpg" alt="image"></a>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="title"><a href="#">Whole Wheat & Soy Waffles Cake </a></h5>
+                                            <div class="meta">19 September, 2016</div>
+                                        </div>
+                                    </li>
+
+                                    <li class="clearfix">
+                                        <div class="thumb flat-hover-images">
+                                            <a href="#"><img src="images/blog/6.jpg" alt="image"></a>
+                                        </div>
+                                        <div class="content">
+                                            <h5 class="title"><a href="#">Whole Wheat & Soy Waffles Cake</a></h5>
+                                            <div class="meta">19 September, 2016</div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div><!-- /.widget_recent_entries -->
+                        </div><!-- /.col-md-3 -->
+
+                        <div class="col-md-3">
+                            <div class="widget widget-link clearfix">
+                                <h3 class="widget-title">User Links </h3>
+                                
+                                <ul class="links">
+                                  <li><a href="#.">About Us</a></li>
+                                  <li><a href="#.">Blog</a></li>
+                                  <li><a href="#.">Courses </a></li>
+                                  <li><a href="#.">FAQs</a></li>
+                                  <li><a href="#.">Events</a></li>
+                                  <li><a href="#.">Support</a></li>
+                              </ul>
+
+
+                              <div class="social-links">
+                                <a href="#"><i class="fa fa-facebook-square"></i>Facebok</a>
+                                <a href="#"><i class="fa fa-twitter-square"></i>Twitter</a>
+                                <a href="#"><i class="fa fa-google-plus-square"></i>Google+</a>
+                                <a href="#"><i class="fa fa-linkedin-square"></i>Linkedin</a>
+                                <a href="#"><i class="fa fa-instagram"></i>Instagram</a>
+                                <a href="#"><i class="fa fa-pinterest-square"></i>Pinterest</a>
+                            </div>
+
+
+                        </div>
+                    </div><!-- /.col-md-3 -->
+
+                    <div class="col-md-3">
+                        <div class="widget widget_instagram">
+                            <h3 class="widget-title">Instagram</h3>            
+
+                            <ul class="clearfix">                                
+                                <li>
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/1.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/2.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="last">
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/3.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="last">
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/4.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="last">
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/5.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="last">
+                                    <div class="thumb images-hover flat-hover-images">
+                                        <a href="#">
+                                            <span><img src="images/instagram/6.jpg" alt="image"></span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>  
+                            </div>
+                        </div><!-- /.col-md-3 -->
+                    </div><!-- /.row -->    
+                </div><!-- /.container -->
+            </div><!-- /.footer-widgets -->
+
+            <div class="footer-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="copyright">
+                                <div class="copyright-content">
+                                 Copyright © 2017. Designer by <a href="themesflat.com"> NthPsd</a>. All Rights Reserved</div>
+                             </div>
+                             <!-- Go Top -->
+                             <a class="go-top-v1"> <i class="fa fa-arrow-up"></i>  &nbsp;Back to Top</a>
+                         </div><!-- /.col-md-12 -->
+                     </div><!-- /.row -->
+                 </div><!-- /.container -->
+             </div><!-- /.footer-content -->
+         </footer>
+
+     </div><!--box -->
+
+     <!-- Javascript -->
+     <script type="text/javascript" src="javascript/jquery.min.js"></script>
+     <script type="text/javascript" src="javascript/bootstrap.min.js"></script> 
+     <script type="text/javascript" src="javascript/jquery.easing.js"></script> 
+     <script type="text/javascript" src="javascript/imagesloaded.min.js"></script> 
+     <script type="text/javascript" src="javascript/jquery.isotope.min.js"></script>
+     <script type="text/javascript" src="javascript/jquery-waypoints.js"></script> 
+     <script type="text/javascript" src="javascript/jquery.magnific-popup.min.js"></script>   
+     <script type="text/javascript" src="javascript/jquery.cookie.js"></script>
+     <script type="text/javascript" src="javascript/parallax.js"></script>
+     <script type="text/javascript" src="javascript/smoothscroll.js"></script>   
+     <script type="text/javascript" src="javascript/jquery.flexslider-min.js"></script>
+     <script type="text/javascript" src="javascript/owl.carousel.js"></script>
+     <script type="text/javascript" src="javascript/jquery-validate.js"></script>
+     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBvV0EE3yFozGhjmUv3BgoyviVdXzCwHlk"></script>
+     <script type="text/javascript" src="javascript/gmap3.min.js"></script>  
+     <script type="text/javascript" src="javascript/main.js"></script>
+
+     <!-- Revolution Slider -->
+     <script type="text/javascript" src="javascript/jquery.themepunch.tools.min.js"></script>
+     <script type="text/javascript" src="javascript/jquery.themepunch.revolution.min.js"></script>
+     <script type="text/javascript" src="javascript/slider.js"></script>
+
+ </body>
+ </html>
