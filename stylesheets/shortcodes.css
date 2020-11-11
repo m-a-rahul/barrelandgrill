@@ -4,7 +4,7 @@
     clear: both;
     display: block;
     position: relative;
-    padding: 100px 0;    
+    padding: 100px 0;
 }
 
 .flat-row.flat-our {
@@ -45,7 +45,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding-bottom: 100px;
-    box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.13); 
+    box-shadow: 0px 1px 38px 0px rgba(0, 0, 0, 0.13);
 }
 
 .flat-row.flat-gallery.bg {
@@ -203,10 +203,10 @@
     margin-bottom: 27px !important;
 }
 
-/* Title-section 
+/* Title-section
 --------------------------------------------------------*/
 .title-section {
-    text-align: center;  
+    text-align: center;
 }
 
 .title-section .top-section {
@@ -222,6 +222,7 @@
 .title-section .title {
     font-weight: 500;
     line-height: 30px;
+    margin-bottom : 3rem;
     position: relative;
     display: inline-block;
 }
@@ -337,7 +338,7 @@
     padding: 21px 30px 20px 30px;
     position: relative;
     background-color: #ffffff;
-   
+
 }
 
 .imagebox .box-content h5 {
@@ -545,7 +546,7 @@
 
 .flat-projects-portfolio ul.portfolio-filter li.active a {
     color: #e44c2a;;
-} 
+}
 
 .flat-projects-portfolio ul.portfolio-filter li a {
     color: #999999;
@@ -600,7 +601,7 @@
     position: absolute;
     top: 18px;
     width: 100%;
-} 
+}
 
 
 .reservation-page-left .reservation-page-form ul {
@@ -718,11 +719,11 @@
     border-color: #222;
 }
 
-/* Blog shortcode 
+/* Blog shortcode
 ----------------------------------------------------------*/
 .blog-shortcode article.post {
     float: left;
-    
+
 }
 
 .blog-shortcode article.post .featured-post {
@@ -862,7 +863,7 @@
 
 .owl-carousel-services.owl-theme .owl-controls .owl-nav div.owl-prev:before {
    content: "";
- 
+
 }
 
 /*Flat team
@@ -966,7 +967,7 @@
 .read-more a {
     font-size: 13px;
     font-weight: 400;
-    color: #333333; 
+    color: #333333;
     position: relative;
 }
 
@@ -1014,7 +1015,7 @@
 }
 
 .read-more.view-all a:before,
-.reservation-page-left .reservation-page-form #reservation-form .reservation-booking 
+.reservation-page-left .reservation-page-form #reservation-form .reservation-booking
 button:before {
     content: "";
     position: absolute;
@@ -1113,14 +1114,14 @@ ul.flat-socials li a {
 
 /*Flat accordion
 -----------------------------------------------------------*/
-.flat-accordion { 
+.flat-accordion {
     margin-top: 51px;
     border: 1px solid #e5e5e5;
     border-bottom: 0;
 }
 
-.flat-accordion .flat-toggle { 
-    position: relative; 
+.flat-accordion .flat-toggle {
+    position: relative;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -1157,7 +1158,7 @@ ul.flat-socials li a {
     position: relative;
 }
 
-/*Fancybox 
+/*Fancybox
 -----------------------------------------------------------------*/
 .flat-video-fancybox {
     position: relative;
@@ -1234,7 +1235,7 @@ button.border {
 }
 
 #flat-product-carousel li.flex-active-slide img {
-    box-shadow: 4px 4px 49px 0px rgba(0, 0, 0, 0.26); 
+    box-shadow: 4px 4px 49px 0px rgba(0, 0, 0, 0.26);
 }
 
 .flat-row.about-1 .entry-content {
